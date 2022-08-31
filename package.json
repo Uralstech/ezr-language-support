@@ -1,0 +1,33 @@
+{
+  "name": "ezr-language-support",
+  "displayName": "ezr language support",
+  "description": "Official VSCode extension for the ezr programming language!",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Visualization",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ezr",
+      "aliases": ["ezr", "ezr"],
+      "extensions": [".ezr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ezr",
+      "scopeName": "source.ezr",
+      "path": "./syntaxes/ezr.tmLanguage.json"
+    }],
+    "snippets": [
+      {
+        "language": "ezr",
+        "path": "./snippets/ezr_snippets.json"
+      }
+    ]
+  }
+}

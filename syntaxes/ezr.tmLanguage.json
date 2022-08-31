@@ -1,0 +1,95 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "ezr",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		},
+		{
+			"include": "#operators"
+		},
+		{
+			"include": "#light-keywords"
+		},
+		{
+			"include": "#base-keywords"
+		},
+		{
+			"include": "#builtin-functions"
+		},
+		{
+			"include": "#other"
+		}
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.line.ezr",
+			"begin": "@",
+			"end": "\\n"
+		},
+		"strings": {
+			"name": "string.quoted.single.ezr",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ezr",
+					"match": "\\\\'|\\\\n|\\\\t|\\\\e|\\\\{2}"
+				}
+			]
+		},
+		"numbers": {
+			"name": "constant.numeric.ezr",
+			"patterns": [
+				{
+					"name": "constant.numeric.ezr",
+					"match": "[0-9\\.]"
+				}
+			]
+		},
+		"operators": {
+			"name": "constant.character.escape.ezr",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ezr",
+					"match": "(\\+|-|\\*|\\/|\\^|%|!|=|<|>)"
+				}
+			]
+		},
+		"light-keywords": {
+			"name": "entity.name.tag.ezr",
+			"patterns": [{
+				"name": "entity.name.tag.ezr",
+				"match": "\\b(ITEM|AND|OR|INVERT|RETURN|SKIP|STOP|NOTHING|TRUE|FALSE)\\b"
+			}]
+		},
+		"base-keywords": {
+			"name": "keyword.control.ezr",
+			"patterns": [{
+				"name": "keyword.control.ezr",
+				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END)\\b"
+			}]
+		},
+		"builtin-functions": {
+			"name": "entity.name.function.ezr",
+			"patterns": [{
+				"name": "entity.name.function.ezr",
+				"match": "\\b(SHOW|GET|GET_INT|GET_FLOAT|CLEAR_SCREEN|TYPE_OF|CONVERT|TRY_CONVERT|EXTEND|REMOVE|INSERT|LEN|SPLIT|JOIN|REPLACE|READ_FILE|WRITE_FILE|RUN)\\b"
+			}]
+		},
+		"other": {
+			"name": "entity.other.attribute-name.ezr",
+			"patterns": [{
+				"name": "entity.other.attribute-name.ezr",
+				"match": "\\w|\\:"
+			}]
+		}
+	},
+	"scopeName": "source.ezr"
+}
