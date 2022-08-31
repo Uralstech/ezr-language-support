@@ -11,6 +11,7 @@
     "Visualization",
     "Snippets"
   ],
+  "repository": {"url": "https://github.com/Uralstech/ezr-language-support"},
   "contributes": {
     "languages": [{
       "id": "ezr",
