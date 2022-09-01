@@ -1,4 +1,4 @@
-# ezr-language-support README
+# ezr language support README
 Official VSCode extension for the ezr programming language!
 
 What is ezr? [**Check it out!**](https://github.com/Uralstech/ezrlang)
