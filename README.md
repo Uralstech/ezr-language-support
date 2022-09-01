@@ -6,7 +6,7 @@ Found a bug? [**Report it!**](https://github.com/Uralstech/ezrlang/issues)
 
 ## Features
 
-### **Syntax Highlighting**
+### **Syntax Highlighting & Icon Theme**
 ![Syntax](./graphics/Syntax.png)
 ### **Code Snippets**
 ![Snippets](./graphics/Snippets.gif)
