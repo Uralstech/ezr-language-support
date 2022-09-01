@@ -9,7 +9,7 @@ Found a bug? [**Report it!**](https://github.com/Uralstech/ezrlang/issues)
 ### **Syntax Highlighting**
 ![Syntax](./graphics/Syntax.png)
 ### **Code Snippets**
-![Snippets](./graphics/Snippets.png)
+![Snippets](./graphics/Snippets.gif)
 
 ## Known Issues
 None yet.
