@@ -2,5 +2,6 @@
 
 ## [1.0.0] - 31-08-22
 ### New
-- Syntax highlighting for the ezr programming language
-- Snippets for the ezr programming language
+- Added syntax highlighting
+- Added snippets
+- Added icon theme

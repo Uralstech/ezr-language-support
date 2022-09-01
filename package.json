@@ -2,16 +2,19 @@
   "name": "ezr-language-support",
   "displayName": "ezr language support",
   "description": "Official VSCode extension for the ezr programming language!",
+  "author": {"email": "uralstech@gmail.com", "name": "Udayshankar R", "url": "https://uralstech.in/"},
+  "publisher": "URAV ADVANCED LEARNING SYSTEMS PRIVATE LIMITED",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Programming Languages",
-    "Visualization",
-    "Snippets"
+    "Snippets",
+    "Themes"
   ],
   "repository": {"url": "https://github.com/Uralstech/ezr-language-support"},
+  "icon": "graphics/ezrIcon (128x128).png",
   "contributes": {
     "languages": [{
       "id": "ezr",
@@ -24,6 +27,13 @@
       "scopeName": "source.ezr",
       "path": "./syntaxes/ezr.tmLanguage.json"
     }],
+    "iconThemes": [
+      {
+        "id": "ezr",
+        "label": "ezr",
+        "path": "./fileicons/ezr-icon-theme.json"
+      }
+    ],
     "snippets": [
       {
         "language": "ezr",

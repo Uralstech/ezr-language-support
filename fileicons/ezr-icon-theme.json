@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "ezr_main": {
+          "iconPath": "./images/ezrIcon (32x32).png"
+        }
+    },
+    "fileExtensions": {
+        "ezr": "ezr_main"
+    }
+}
