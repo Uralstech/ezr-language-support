@@ -9,9 +9,6 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#numbers"
-		},
-		{
 			"include": "#operators"
 		},
 		{
@@ -41,15 +38,6 @@
 				{
 					"name": "constant.character.escape.ezr",
 					"match": "\\\\'|\\\\n|\\\\t|\\\\e|\\\\{2}"
-				}
-			]
-		},
-		"numbers": {
-			"name": "constant.numeric.ezr",
-			"patterns": [
-				{
-					"name": "constant.numeric.ezr",
-					"match": "[0-9\\.]"
 				}
 			]
 		},

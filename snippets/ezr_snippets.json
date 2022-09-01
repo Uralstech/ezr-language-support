@@ -1,18 +1,18 @@
 {
     "IF-ELSE Statement": {
         "prefix": ["IF-ELSE"],
-        "body": ["IF ${1:statement} DO\n\t@ Your code here\nELSE IF ${2:statement} DO\n\t@ Your code here\nELSE DO\n\t@ Your code here\nEND"]
+        "body": ["IF ${1:statement} DO\n\t${3:@ Your code here}\nELSE IF ${2:statement} DO\n\t${4:@ Your code here}\nELSE DO\n\t${5:@ Your code here}\nEND"]
     },
     "FUNCTION Definition": {
         "prefix": ["FUNCTION"],
-        "body": ["FUNCTION ${1:name} WITH ${2:args} DO\n\t@ Your code here\nEND"]
+        "body": ["FUNCTION ${1:name}${2: WITH args} DO\n\t${3:@ Your code here}\nEND"]
     },
     "COUNT Loop": {
         "prefix": ["COUNT"],
-        "body": ["COUNT FROM ${1:start} AS ${2:i} TO ${3:end} STEP ${4:step} DO\n\t@ Your code here\nEND"]
+        "body": ["COUNT FROM ${1:start} AS ${2:i} TO ${3:end}${4: STEP step} DO\n\t${5:@ Your code here}\nEND"]
     },
     "WHILE Loop": {
         "prefix": ["WHILE"],
-        "body": ["WHILE ${1:statement} DO\n\t@ Your code here\nEND"]
+        "body": ["WHILE ${1:statement} DO\n\t${2:@ Your code here}\nEND"]
     }
 }
