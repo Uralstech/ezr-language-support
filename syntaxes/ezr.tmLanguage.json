@@ -61,14 +61,14 @@
 			"name": "keyword.control.ezr",
 			"patterns": [{
 				"name": "keyword.control.ezr",
-				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END)\\b"
+				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END|TRY|ERROR)\\b"
 			}]
 		},
 		"builtin-functions": {
 			"name": "entity.name.function.ezr",
 			"patterns": [{
 				"name": "entity.name.function.ezr",
-				"match": "\\b(SHOW|GET|GET_INT|GET_FLOAT|CLEAR_SCREEN|TYPE_OF|CONVERT|TRY_CONVERT|EXTEND|REMOVE|INSERT|LEN|SPLIT|JOIN|REPLACE|READ_FILE|WRITE_FILE|RUN)\\b"
+				"match": "\\b(SHOW|GET|GET_INT|GET_FLOAT|CLEAR_SCREEN|TYPE_OF|CONVERT|EXTEND|REMOVE|INSERT|LEN|SPLIT|JOIN|REPLACE|READ_FILE|WRITE_FILE|RUN)\\b"
 			}]
 		},
 		"other": {

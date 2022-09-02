@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.1.0] - 02-09-22
+### New
+- Support for ezr v1.16.0
+
 ## [1.0.0] - 31-08-22
 ### New
 - Added syntax highlighting

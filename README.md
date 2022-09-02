@@ -15,6 +15,9 @@ Found a bug? [**Report it!**](https://github.com/Uralstech/ezrlang/issues)
 None yet.
 
 ## Release Notes
+### 1.1.0
+- Support for ezr v1.16.0
+
 ### 1.0.0
 - Added syntax highlighting
 - Added snippets
