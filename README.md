@@ -16,6 +16,9 @@ None yet.
 
 ## Release Notes
 
+### 1.3.0
+- Support for ezr v1.18.1
+
 ### 1.2.0
 - Support for ezr v1.18.0 (i.e. ezr m18)
 
