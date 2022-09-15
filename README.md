@@ -15,6 +15,10 @@ Found a bug? [**Report it!**](https://github.com/Uralstech/ezrlang/issues)
 None yet.
 
 ## Release Notes
+
+### 1.2.0
+- Support for ezr v1.18.0 (i.e. ezr m18)
+
 ### 1.1.0
 - Support for ezr v1.16.0
 

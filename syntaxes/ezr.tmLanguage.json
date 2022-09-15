@@ -54,7 +54,7 @@
 			"name": "entity.name.tag.ezr",
 			"patterns": [{
 				"name": "entity.name.tag.ezr",
-				"match": "\\b(ITEM|AND|OR|INVERT|RETURN|SKIP|STOP|NOTHING|TRUE|FALSE)\\b"
+				"match": "\\b(ITEM|AND|OR|INVERT|RETURN|SKIP|STOP|NOTHING|TRUE|FALSE|INFINITY|NOT_A_NUMBER|MATH_PI|MATH_TAU|MATH_E)\\b"
 			}]
 		},
 		"base-keywords": {
@@ -68,7 +68,7 @@
 			"name": "entity.name.function.ezr",
 			"patterns": [{
 				"name": "entity.name.function.ezr",
-				"match": "\\b(SHOW|GET|GET_INT|GET_FLOAT|CLEAR_SCREEN|TYPE_OF|CONVERT|EXTEND|REMOVE|INSERT|LEN|SPLIT|JOIN|REPLACE|READ_FILE|WRITE_FILE|RUN)\\b"
+				"match": "\\b(SHOW|GET|GET_INT|GET_FLOAT|CLEAR_SCREEN|TYPE_OF|CONVERT|EXTEND|REMOVE|INSERT|LEN|SPLIT|JOIN|REPLACE|READ_FILE|WRITE_FILE|RUN|SQUARE_ROOT|RADIANS_TO_DEGREES|DEGREES_TO_RADIANS|COS|SIN|TAN|ACOS|ASIN|ATAN)\\b"
 			}]
 		},
 		"other": {
