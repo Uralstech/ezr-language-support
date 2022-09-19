@@ -6,7 +6,10 @@
 			"include": "#comments"
 		},
 		{
-			"include": "#strings"
+			"include": "#strings_single_quote"
+		},
+		{
+			"include": "#strings_double_quote"
 		},
 		{
 			"include": "#operators"
@@ -30,7 +33,7 @@
 			"begin": "@",
 			"end": "\\n"
 		},
-		"strings": {
+		"strings_single_quote": {
 			"name": "string.quoted.single.ezr",
 			"begin": "'",
 			"end": "'",
@@ -38,6 +41,17 @@
 				{
 					"name": "constant.character.escape.ezr",
 					"match": "\\\\'|\\\\n|\\\\t|\\\\e|\\\\{2}"
+				}
+			]
+		},
+		"strings_double_quote": {
+			"name": "string.quoted.single.ezr",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.ezr",
+					"match": "\\\\\"|\\\\n|\\\\t|\\\\e|\\\\{2}"
 				}
 			]
 		},
