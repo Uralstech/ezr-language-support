@@ -17,7 +17,7 @@ None yet.
 ## Release Notes
 
 ### 1.4.0
-- Support for ezr v1.18.2
+- Support for ezr v1.18.2 and v1.18.3
 
 ### 1.3.0
 - Support for ezr v1.18.1
