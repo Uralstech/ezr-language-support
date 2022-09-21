@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.6.0] - 21-09-22
+### New
+- Support for ezr 1.19.0.0
+
 ## [1.5.0] - 20-09-22
 ### New
 - Support for ezr v1.18.4.0 and 1.18.4.1
