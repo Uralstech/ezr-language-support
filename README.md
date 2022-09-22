@@ -16,7 +16,9 @@ None yet.
 
 ## Release Notes
 
-### 1.6.0 - Support for ezr 1.19.0.0
+### 1.7.0 - Support for ezr 1.20.0.0 (ezr m20)
+
+### 1.6.0 - Support for ezr 1.19.0.0 (ezr m19)
 
 ### 1.5.0 - Support for ezr 1.18.4.0 and 1.18.4.1
 

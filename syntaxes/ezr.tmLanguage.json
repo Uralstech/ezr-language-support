@@ -68,14 +68,14 @@
 			"name": "entity.name.tag.ezr",
 			"patterns": [{
 				"name": "entity.name.tag.ezr",
-				"match": "\\b(ITEM|AND|OR|IN|INVERT|RETURN|SKIP|STOP|NOTHING|TRUE|FALSE|INFINITY|NOT_A_NUMBER|EZR_VERSION|MATH_PI|MATH_TAU|MATH_E)\\b"
+				"match": "\\b(GLOBAL|ITEM|AND|OR|IN|INVERT|RETURN|SKIP|STOP|NOTHING|TRUE|FALSE|INFINITY|NOT_A_NUMBER|EZR_VERSION|MATH_PI|MATH_TAU|MATH_E)\\b"
 			}]
 		},
 		"base-keywords": {
 			"name": "keyword.control.ezr",
 			"patterns": [{
 				"name": "keyword.control.ezr",
-				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END|TRY|ERROR)\\b"
+				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END|TRY|ERROR|OBJECT)\\b"
 			}]
 		},
 		"builtin-functions": {

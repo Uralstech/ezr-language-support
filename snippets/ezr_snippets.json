@@ -1,18 +1,22 @@
 {
     "FUNCTION Definition": {
         "prefix": ["FUNCTION"],
-        "body": ["FUNCTION ${1:name}${2: WITH args} DO\n\t${3:@ Your code here}\nEND"]
+        "body": ["FUNCTION ${1:name}${2: WITH args} DO\n\nEND"]
+    },
+    "OBJECT Definition": {
+        "prefix": ["OBJECT"],
+        "body": ["OBJECT ${1:name}${2: WITH args} DO\n\nEND"]
     },
     "COUNT Loop": {
         "prefix": ["COUNT"],
-        "body": ["COUNT FROM ${1:start} AS ${2:i} TO ${3:end}${4: STEP step} DO\n\t${5:@ Your code here}\nEND"]
+        "body": ["COUNT FROM ${1:start} AS ${2:i} TO ${3:end}${4: STEP step} DO\n\nEND"]
     },
     "WHILE Loop": {
         "prefix": ["WHILE"],
-        "body": ["WHILE ${1:statement} DO\n\t${2:@ Your code here}\nEND"]
+        "body": ["WHILE ${1:statement} DO\n\nEND"]
     },
     "TRY Statement": {
         "prefix": ["TRY"],
-        "body": ["TRY DO\n\t${1:@ Your code here}\nERROR DO\n\t${2:@ Your code here}\nEND"]
+        "body": ["TRY DO\n\nERROR ${1:'ERROR-TAG'}${2: AS e} DO\n\nEND"]
     }
 }
