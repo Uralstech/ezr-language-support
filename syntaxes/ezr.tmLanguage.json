@@ -75,7 +75,7 @@
 			"name": "keyword.control.ezr",
 			"patterns": [{
 				"name": "keyword.control.ezr",
-				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END|TRY|ERROR|OBJECT)\\b"
+				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END|TRY|ERROR|OBJECT|INCLUDE)\\b"
 			}]
 		},
 		"builtin-functions": {
