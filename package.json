@@ -4,7 +4,7 @@
   "description": "Official VSCode extension for the ezr programming language!",
   "author": {"email": "uralstech@gmail.com", "name": "Udayshankar R", "url": "https://uralstech.in/"},
   "publisher": "Uralstech",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "engines": {
     "vscode": "^1.70.0"
   },
