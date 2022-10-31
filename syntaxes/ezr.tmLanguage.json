@@ -68,21 +68,21 @@
 			"name": "entity.name.tag.ezr",
 			"patterns": [{
 				"name": "entity.name.tag.ezr",
-				"match": "\\b(GLOBAL|ITEM|AND|OR|IN|INVERT|RETURN|SKIP|STOP|NOTHING|TRUE|FALSE|EZR_VERSION)\\b"
+				"match": "\\b(global|item|and|or|in|invert|return|skip|stop|nothing|true|false|ezr_version)\\b"
 			}]
 		},
 		"base-keywords": {
 			"name": "keyword.control.ezr",
 			"patterns": [{
 				"name": "keyword.control.ezr",
-				"match": "\\b(IF|ELSE|DO|COUNT|FROM|AS|TO|STEP|WHILE|FUNCTION|WITH|END|TRY|ERROR|OBJECT|INCLUDE)\\b"
+				"match": "\\b(if|else|do|count|from|as|to|step|while|function|with|end|try|error|object|include)\\b"
 			}]
 		},
 		"builtin-functions": {
 			"name": "entity.name.function.ezr",
 			"patterns": [{
 				"name": "entity.name.function.ezr",
-				"match": "\\b(SHOW|SHOW_ERROR|GET|GET_INT|GET_FLOAT|CLEAR_SCREEN|TYPE_OF|CONVERT|EXTEND|REMOVE|INSERT|LEN|SPLIT|JOIN|REPLACE|RUN)\\b"
+				"match": "\\b(show|show_error|get|get_int|get_float|clear|type_of|convert|extend|remove|insert|length_of|split|join|replace|run)\\b"
 			}]
 		},
 		"other": {

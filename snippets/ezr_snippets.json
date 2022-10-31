@@ -1,22 +1,22 @@
 {
-    "FUNCTION Definition": {
-        "prefix": ["FUNCTION"],
-        "body": ["FUNCTION ${1:name}${2: WITH args} DO\n\nEND"]
+    "Function Definition": {
+        "prefix": ["function"],
+        "body": ["function ${1:name}${2: with args} do\n\nend"]
     },
-    "OBJECT Definition": {
-        "prefix": ["OBJECT"],
-        "body": ["OBJECT ${1:name}${2: WITH args} DO\n\nEND"]
+    "Object Definition": {
+        "prefix": ["object"],
+        "body": ["object ${1:name}${2: with args} do\n\nend"]
     },
-    "COUNT Loop": {
-        "prefix": ["COUNT"],
-        "body": ["COUNT FROM ${1:start} AS ${2:i} TO ${3:end}${4: STEP step} DO\n\nEND"]
+    "Count Loop": {
+        "prefix": ["count"],
+        "body": ["count from ${1:start} as ${2:i} to ${3:_end}${4: step _step} do\n\nend"]
     },
-    "WHILE Loop": {
-        "prefix": ["WHILE"],
-        "body": ["WHILE ${1:statement} DO\n\nEND"]
+    "While Loop": {
+        "prefix": ["while"],
+        "body": ["while ${1:statement} do\n\nend"]
     },
-    "TRY Statement": {
-        "prefix": ["TRY"],
-        "body": ["TRY DO\n\nERROR ${1:'ERROR-TAG'}${2: AS e} DO\n\nEND"]
+    "Try Statement": {
+        "prefix": ["try"],
+        "body": ["try do\n\nerror ${1:'ERROR-TAG'}${2: as _error} do\n\nend"]
     }
 }
