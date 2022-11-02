@@ -82,7 +82,7 @@
 			"name": "entity.name.function.ezr",
 			"patterns": [{
 				"name": "entity.name.function.ezr",
-				"match": "\\b(show|show_error|get|get_int|get_float|clear|type_of|convert|extend|remove|insert|length_of|split|join|replace|run)\\b"
+				"match": "\\b(show|show_error|get|get_int|get_float|clear|hash|type_of|convert|insert|length_of|split|join|replace|run)\\b"
 			}]
 		},
 		"other": {
