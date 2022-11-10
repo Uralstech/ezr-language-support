@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.10.1] - 10-11-22
+### Bugfixes
+- Bugfix for snippets
+
 ## [1.10.0] - 31-10-22
 ### New
 - Support for ezr 2.0.0.0.0 (ezr v2m0)

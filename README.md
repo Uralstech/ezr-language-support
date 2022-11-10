@@ -16,6 +16,8 @@ None yet.
 
 ## Release Notes
 
+### 1.10.1 - Bugfix for snippets
+
 ### 1.10.0 - Support for ezr 2.0.0.0.0 (ezr v2m0)
 
 ### 1.9.0 - Support for ezr 1.22.0.0 (ezr m22)

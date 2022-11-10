@@ -9,7 +9,7 @@
     },
     "Count Loop": {
         "prefix": ["count"],
-        "body": ["count from ${1:start} as ${2:i} to ${3:_end}${4: step _step} do\n\nend"]
+        "body": ["count from ${1:start} as ${2:i} to ${3:end_}${4: step step_} do\n\nend"]
     },
     "While Loop": {
         "prefix": ["while"],
@@ -17,6 +17,6 @@
     },
     "Try Statement": {
         "prefix": ["try"],
-        "body": ["try do\n\nerror ${1:'ERROR-TAG'}${2: as _error} do\n\nend"]
+        "body": ["try do\n\nerror ${1:'ERROR-TAG'}${2: as error_} do\n\nend"]
     }
 }
